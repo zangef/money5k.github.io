@@ -1,0 +1,124 @@
+/*
+Theme Name: British Council
+Description: 
+Version: 1 
+*/
+
+/*** Reset ***/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { background: transparent; border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0; vertical-align: baseline; }
+ol,ul { list-style: none; }
+blockquote,q { quotes: none; }
+blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none; }
+:focus { outline: 0; }
+img { vertical-align: bottom; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+body			{text-align: center; margin: 0 auto 0 auto;  width:930px; height:auto;  font-family: arial, verdana, sans-serif; font-size: 75%; color: #000000; line-height:1.6em;  }
+.wrapper		{ margin: 0px auto; text-align: left; padding: 10px; width:910px; height:auto; position: relative; }
+
+/*** Clearfix ***/
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: "."; clear: both; height: 0; }
+.clear { clear: both; }
+
+/*** Positioning and Alignment ***/
+.fl { float: left; }
+.fr { float: right; }
+.txt-left { text-align: left; }
+.txt-right { text-align: right; }
+.txt-center { text-align: center; }
+
+/*** General Settings ***/
+body { background: #fff; color: #000; font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+h1,h2,h3,h4,h5,h6 { font-weight: normal; margin-bottom: 15px; }
+p { margin: 0 0 15px 0; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+#wrapper { margin: 0px auto; width: 910px; }
+
+
+/*** Content ***/
+#content { background: #f1f1f1 url(../images/bg-content-top.jpg) no-repeat scroll 0 0; margin: 18px 8px 21px 4px;  }
+#content .inner { background: url(../images/bg-content-bottom.jpg) no-repeat scroll 0 100%; padding: 20px 15px; }
+
+#content h1 { color: #327fb5; font-size: 18px; }
+#content .content-title { color: #e41937; font-size: 14px; }
+
+#content .details { background: #fff6bf; margin-bottom: 30px; padding: 10px; }
+#content .details ul { overflow: hidden; }
+#content .details ul li { float: left; margin-right: 50px }
+#content .details ul li.last { margin-right: 0px; }
+#content .details ul li span { display: block; margin-bottom: 5px; }
+#content .details ul li span strong { float: left; width: 160px; }
+
+#tab {}
+
+#tab-menu { border-bottom: 20px solid #ffffff; margin-bottom: 15px; }
+#tab-menu ul { height: 42px; }
+#tab-menu ul li { float: left; position: relative; }
+#tab-menu ul li a { color: #ffffff; display: block; height: 42px; line-height: 50px; text-align: center; text-decoration: none; }
+#tab-menu ul li.item-1 a { background: url(../images/bg-tab-menu-1.png) no-repeat scroll 0px 0px; position: relative; width: 121px; z-index: 7; }
+#tab-menu ul li.item-2 a { background: url(../images/bg-tab-menu-2.png) no-repeat scroll 0px 0px; margin-left: -20px; position: relative; width: 149px; z-index: 6; }
+#tab-menu ul li.item-3 a { background: url(../images/bg-tab-menu-3.png) no-repeat scroll 0px 0px; margin-left: -23px; position: relative; width: 159px; z-index: 5;  }
+#tab-menu ul li.item-4 a { background: url(../images/bg-tab-menu-4.png) no-repeat scroll 0px 0px; margin-left: -33px; position: relative; width: 167px; z-index: 4; }
+#tab-menu ul li.item-5 a { background: url(../images/bg-tab-menu-5.png) no-repeat scroll 0px 0px; margin-left: -25px; position: relative; width: 121px; z-index: 3; }
+#tab-menu ul li.item-8 a { background: url(../images/bg-tab-menu-2.png) no-repeat scroll 0px 0px; margin-left: -20px; position: relative; width: 149px; z-index: 2; }
+#tab-menu ul li.item-6 a { background: url(../images/bg-tab-menu-6.png) no-repeat scroll 0px 0px; margin-left: -27px; position: relative; width: 140px; z-index: 1; }
+
+#tab-menu ul li.item-1.active a { background: url(../images/bg-tab-menu-1.png) no-repeat scroll 0px -42px; }
+#tab-menu ul li.item-2.active a { background: url(../images/bg-tab-menu-2.png) no-repeat scroll 0px -42px; }
+#tab-menu ul li.item-3.active a { background: url(../images/bg-tab-menu-3.png) no-repeat scroll 0px -42px; }
+#tab-menu ul li.item-4.active a { background: url(../images/bg-tab-menu-4.png) no-repeat scroll 0px -42px; }
+#tab-menu ul li.item-5.active a { background: url(../images/bg-tab-menu-5.png) no-repeat scroll 0px -42px; }
+#tab-menu ul li.item-6.active a { background: url(../images/bg-tab-menu-6.png) no-repeat scroll 0px -42px; }
+#tab-menu ul li.item-8.active a { background: url(../images/bg-tab-menu-2.png) no-repeat scroll 0px -42px; }
+
+#tab-menu ul li .free { position: absolute; right: 7px; top: -10px;  z-index: 100;}
+
+.tab-content { padding-right: 13px; }
+.tab-content h2 { background: url(../images/bg-tab-content-title.jpg) no-repeat; font-size: 14px; font-weight: bold; height: 32px; line-height: 25px; margin-bottom: -7px; padding: 0px 20px; position: relative; width: 367px; z-index: 1; }
+.tab-content .entry { background: #ffffff url(../images/bg-tab-content-entry-top.jpg) no-repeat; margin-bottom: 15px; }
+.tab-content .entry-inner { background: url(../images/bg-tab-content-entry-bottom.jpg) no-repeat scroll 0 100%; min-height: 100px; padding: 18px; }
+.tab-content .column { float: left; margin: 0px 20px; width: 300px; }
+.tab-content dl {}
+.tab-content dl dt { clear: left; float: left; font-weight: bold; width: 100px; }
+.tab-content dl dd { margin-bottom: 15px; }
+
+/*candidate style*/
+.CandidateDetailWrapper
+{ font-family:Tahoma; font-size:8pt;  margin:10px 10px 10px 10px; height:530px; overflow:auto;}
+
+.CandidateDetailWrapper .DetailRow
+{ width:98%; padding:2px; }
+
+
+.CandidateDetailWrapper .DetailRow .DetailColumnHeader
+{ font-weight:bold; width:15%; float:left; margin-right:2px;}
+
+.CandidateDetailWrapper .DetailRow .DetailColumnPointer
+{ font-weight:bold; width:15px; float:left; margin-right:2px; padding-left:2px; }
+
+.CandidateDetailWrapper .DetailRow .DetailColumnMedium
+{ width:15%; float:left; margin-right:2px; }
+
+.CandidateDetailWrapper .DetailRow .OtherFieldLabel
+{ width:9%;float:left; padding-top:3px; padding-left:5px; }
+
+.DetailColumnHeader { font-weight:bold; width:15%; float:left; margin-right:2px;}
+.DetailColumnPointer { font-weight:bold; width:15px; float:left; margin-right:2px; padding-left:2px; }
+.DetailColumnMedium { width:15%; float:left; margin-right:2px; }
+
+.dataInputBox	{ height: auto; width: 100%; padding-bottom: 5px; min-height:20px; }
+
+.RegMessage { width: 538px; height: auto; background-color: #ffffff; border: solid 1px #eeefff; padding: 10px; }
+.RegMessageImage { width: 80px; height: auto; float: left; }
+.RegMessageText { width: 458px; height: auto; float: left; }
+.RegMessageTextTitle { width: 100%; font-weight: bold; padding-bottom: 3px; }
+.RegMessageTextBody { width: 100%; line-height: 1.6em; }
+.RegMessageTextBody p { width: 100%; line-height: 1.6em; }
+
+.PrepMaterialsMessageText { padding-left: 50px; width: 458px; height: auto; float: right; }
+
+.td			{text-align: left;}
